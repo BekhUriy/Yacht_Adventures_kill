@@ -1,6 +1,9 @@
+/* common */
+
+
 body {
   font-family: DM Sans;
-  font-size: 14px;
+  
   font-style: normal;
   font-weight: 400;
 }
@@ -23,6 +26,10 @@ p {
   --bgcolor: #11131f;
   --hovericon: rgba(246, 245, 239, 0.5);
 }
+
+
+/* footer */
+
 
 .footer {
   background-color: var(--bgcolor);
@@ -91,7 +98,7 @@ p {
 .logoicon {
 
 }
-@media screen and (min-width: 768px;)
+@media screen and (min-width: 768px)
 {
   .logoicon {
   width: 23px;
@@ -127,6 +134,7 @@ p {
 }
 
 .nav-list-link {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.18;
   letter-spacing: 0.42px;
@@ -140,6 +148,7 @@ p {
   flex-direction: column;
   gap: 16px;
 
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
@@ -183,8 +192,7 @@ p {
 }
 
 .footer-bottom {
-  /* padding-left: 50px;
-  padding-right: 50px; */
+ 
   margin: 0 auto;
 
   display: flex;

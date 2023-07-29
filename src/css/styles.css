@@ -79,3 +79,34 @@
   font-weight: 500;
   font-style: italic;
 }
+
+body {
+  background-color: var(--dark_blue);
+  font-family: 'DM Sans';
+  font-style: normal;
+  color: var(--white);
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* Desktop screen */
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}

@@ -37,6 +37,13 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .header-icon {
+    width: 23px;
+    height: 23px;
+  }
+}
+
 .header-list-item {
   font-family: DM Sans;
   color: var(--white);

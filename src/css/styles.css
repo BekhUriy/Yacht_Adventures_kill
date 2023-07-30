@@ -20,6 +20,8 @@
   font-size: 16px;
   line-height: 1.2;
   font-weight: 400;
+  --grey: #e3e3e3;
+  --blu: #88b3b9;
   --white: #f6f5ef;
   --light-green: #93abae;
   --linear_green: 107deg, #bec7c2 0%, #a1b5ba 100%;
@@ -87,11 +89,17 @@ body {
   color: var(--white);
 }
 
+/**
+  |============================
+  | container
+  |============================
+*/
+
 .container {
   min-width: 320px;
   max-width: 375px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }

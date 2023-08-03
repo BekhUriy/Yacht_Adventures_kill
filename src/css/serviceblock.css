@@ -12,10 +12,7 @@
     padding-bottom: 164px;
   }
 }
-.service-list {
-}
-.service-item {
-}
+
 .service-item:not(:last-child) {
   margin-bottom: 24px;
 }
@@ -88,8 +85,8 @@
   }
   .service-thumb-2 {
     position: absolute;
-    top: 204px;
-    right: 0;
+    top: 39px;
+    right: 48px;
   }
   .service-img-3 {
     width: 436px;
@@ -98,7 +95,10 @@
   .service-thumb-3 {
     margin-top: 64px;
     position: relative;
-    left: 340px;
+    width: 436px;
+    left: 294px;
+    bottom: 166px;
+    z-index: 2;
   }
 }
 .service-subtitle {
